@@ -1,0 +1,11 @@
+[Unit]
+Description=ATLAS ingestão de e-mail a cada hora
+
+[Timer]
+OnCalendar=*-*-* *:05:00
+Persistent=true
+AccuracySec=1min
+RandomizedDelaySec=30
+
+[Install]
+WantedBy=timers.target

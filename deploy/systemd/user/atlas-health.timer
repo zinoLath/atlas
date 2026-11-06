@@ -1,0 +1,10 @@
+[Unit]
+Description=ATLAS health a cada 15 minutos
+
+[Timer]
+OnCalendar=*:0/15
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,10 @@
+[Unit]
+Description=ATLAS relatório shadow diário
+
+[Timer]
+OnCalendar=*-*-* 20:30:00
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target

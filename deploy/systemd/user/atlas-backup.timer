@@ -1,0 +1,10 @@
+[Unit]
+Description=ATLAS backup diário
+
+[Timer]
+OnCalendar=*-*-* 03:30:00
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target

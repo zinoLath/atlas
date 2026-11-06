@@ -1,0 +1,21 @@
+[Unit]
+Description=ATLAS daemon (escritor único)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+Environment=ATLAS_HOME=%h/.local/share/atlas
+Environment=PATH=/run/current-system/sw/bin:/usr/bin:/bin
+WorkingDirectory=%h/atlas
+ExecStartPre=/run/current-system/sw/bin/python3 %h/atlas/bin/atlas init
+ExecStart=/run/current-system/sw/bin/python3 %h/atlas/bin/atlasd --home %h/.local/share/atlas
+Restart=on-failure
+RestartSec=10
+StartLimitBurst=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target

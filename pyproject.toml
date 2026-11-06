@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atlas"
+version = "0.1.0"
+description = "CLI Python (stdlib) para coordenação de trabalho e base de conhecimento — log transacional JSONL, replay e vistas SQLite/FTS5"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.scripts]
+atlas = "atlas_cli.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["atlas_cli*"]

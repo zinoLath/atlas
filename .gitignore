@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.tmp-smoke/
+tests/.tmp/
+state/atlasd.sock
+state/atlasd.socket
+state/atlasd.pid
+state/atlasd.log*
+backups/
+state/control.json

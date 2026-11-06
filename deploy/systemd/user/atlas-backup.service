@@ -1,0 +1,13 @@
+[Unit]
+Description=ATLAS backup diário de estado/blobs
+
+[Service]
+Type=oneshot
+Environment=ATLAS_HOME=%h/.local/share/atlas
+Environment=PATH=/run/current-system/sw/bin:/usr/bin:/bin
+WorkingDirectory=%h/atlas
+ExecStart=/run/current-system/sw/bin/python3 %h/atlas/bin/atlas backup --keep 7
+TimeoutStartSec=30min
+Nice=10
+IOSchedulingClass=idle
+UMask=0077

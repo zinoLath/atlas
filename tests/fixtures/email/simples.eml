@@ -1,0 +1,21 @@
+From: Ana Ribeiro <ana.ribeiro@example.com>
+To: Usuario Exemplo <usuario@example.com>
+Subject: =?utf-8?q?Reuni=C3=A3o?= de planejamento do ATLAS
+Date: Sun, 01 Nov 2026 09:12:00 -0300
+Message-ID: <20261101.0912.simples@mail.example.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+MIME-Version: 1.0
+
+Oi Zino,
+
+Resumo rápido da reunião de planejamento de segunda:
+
+- fechar o escopo do reader em shadow;
+- revisar o cursor por UIDVALIDITY;
+- deixar demandas automáticas para depois da promoção.
+
+Qualquer coisa, me chama.
+
+Abraço,
+Ana

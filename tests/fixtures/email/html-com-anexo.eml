@@ -1,0 +1,40 @@
+From: Financeiro Loja Exemplo <financeiro@loja.example.com>
+To: Usuario Exemplo <usuario@example.com>
+Subject: Nota fiscal da compra 4821
+Date: Wed, 28 Oct 2026 11:15:00 -0300
+Message-ID: <20261029.nf-4821@loja.example.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="atlas-alt-html-pdf"
+
+--atlas-alt-html-pdf
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<html><body>
+<p>Olá, Zino.</p>
+<p>Segue em anexo a <strong>nota fiscal</strong> da compra 4821, no valor de R$ 1.234,56.</p>
+<p>O PDF tem apenas metadados neste fixture; o texto não precisa ser extraído.</p>
+<p>Atenciosamente,<br>Financeiro Loja Exemplo</p>
+</body></html>
+
+--atlas-alt-html-pdf
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="nota-fiscal-4821.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKMSAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgPj4KZW5kb2Jq
+CjIgMCBvYmoKPDwgL1R5cGUgL1BhZ2VzIC9LaWRzIFszIDAgUl0gL0NvdW50IDEgPj4KZW5kb2Jq
+CjMgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvTWVkaWFCb3ggWzAgMCA1OTUg
+ODQyXSAvUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMSA0IDAgUiA+PiA+PiAvQ29udGVudHMgNSAw
+IFIgPj4KZW5kb2JqCjQgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNl
+Rm9udCAvSGVsdmV0aWNhID4+CmVuZG9iago1IDAgb2JqCjw8IC9MZW5ndGggMTk2ID4+CnN0cmVh
+bQpCVAovRjEgMTQgVGYKNzIgNzcwIFRkCihOT1RBIEZJU0NBTCAtIENPTVBSQSA0ODIxKSBUagow
+IC0yNCBUZAovRjEgMTEgVGYKKEVtaXRlbnRlOiBMb2phIEV4ZW1wbG8gTHRkYS4pIFRqCjAgLTE4
+IFRkCihUb3RhbDogUiQgMS4yMzQsNTYpIFRqCjAgLTE4IFRkCihEb2N1bWVudG8gZGUgdGVzdGUg
+LSBzZW0gdmFsb3IgZmlzY2FsLikgVGoKRVQKZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgNgowMDAw
+MDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA1OCAwMDAwMCBuIAow
+MDAwMDAwMTE1IDAwMDAwIG4gCjAwMDAwMDAyNDEgMDAwMDAgbiAKMDAwMDAwMDMxMSAwMDAwMCBu
+IAp0cmFpbGVyCjw8IC9TaXplIDYgL1Jvb3QgMSAwIFIgPj4Kc3RhcnR4cmVmCjU1NwolJUVPRgo=
+
+--atlas-alt-html-pdf--

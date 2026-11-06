@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "default": "candidate",
+  "rules": [
+    {
+      "name": "projetos-fapemig",
+      "match": {
+        "source": "email",
+        "subject_regex": "(?i)(fapemig|wsf|paper|artigo)"
+      },
+      "action": "route",
+      "area": "projetos"
+    },
+    {
+      "name": "faculdade-sigaa",
+      "match": {
+        "source": "email",
+        "from_regex": "(?i)sigaa"
+      },
+      "action": "route",
+      "area": "faculdade"
+    },
+    {
+      "name": "financas-nubank",
+      "match": {
+        "source": "email",
+        "subject_regex": "(?i)(fatura|nubank|pagamento)"
+      },
+      "action": "route",
+      "area": "financas"
+    }
+  ]
+}

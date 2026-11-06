@@ -1,0 +1,23 @@
+From: Usuario Exemplo <usuario@example.com>
+To: Contabilidade <contabilidade@example.com>
+Subject: Fwd: Fatura Nubank fechada =?utf-8?b?4oCU?= vencimento 10/11/2026
+Date: Mon, 26 Oct 2026 14:30:00 -0300
+Message-ID: <20261026.1430.fwd-fatura@mail.example.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+MIME-Version: 1.0
+
+Contabilidade,
+
+Encaminhando a fatura que chegou hoje. O vencimento é 10/11 e o valor
+bate com o fechamento do mês passado.
+
+---------- Mensagem encaminhada ----------
+De: Nubank <no-reply@nubank.com.br>
+Data: 25 de outubro de 2026 08:30
+Assunto: Fatura Nubank fechada — vencimento 10/11/2026
+Para: usuario@example.com
+Message-ID: <20261025.0830.fatura-original@nubank.com.br>
+
+Sua fatura de outubro fechou em R$ 1.234,56.
+Vencimento: 10/11/2026.

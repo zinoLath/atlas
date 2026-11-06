@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+"""Daemon do ATLAS (stdlib apenas). Roda em foreground; o systemd supervisiona."""
+
+import argparse
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from atlas_cli.daemon import Daemon  # noqa: E402
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        prog="atlasd",
+        description="Daemon residente do ATLAS: escritor único do estado via unix socket.",
+    )
+    parser.add_argument("--home", metavar="DIR", help="ATLAS_HOME do daemon")
+    parser.add_argument("--socket", metavar="PATH", help="socket unix (default: $ATLAS_HOME/state/atlasd.sock)")
+    args = parser.parse_args(argv)
+    return Daemon(home=args.home, socket_file=args.socket).run()
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

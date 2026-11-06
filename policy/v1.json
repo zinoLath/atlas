@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "digest": {
+    "threshold": 7,
+    "rollover_max_hours": 12,
+    "briefing_hour": 8
+  },
+  "budget": {
+    "premium_daily_usd": 2.0,
+    "max_auto_actions_per_hour": 6
+  },
+  "forbidden_auto": [
+    "pay",
+    "transfer",
+    "purchase",
+    "send_message",
+    "publish",
+    "delete",
+    "merge_main",
+    "credential",
+    "install",
+    "system_change"
+  ],
+  "lane_by_agent_level": {
+    "0": "observe",
+    "1": "auto_flash",
+    "2": "flash_review",
+    "3": "approve_premium",
+    "4": "human"
+  }
+}
